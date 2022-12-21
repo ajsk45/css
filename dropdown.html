@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .dropdown {
+             position: relative;   
+             display:inline-block;
+
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: coral;
+                min-height: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 18px;
+                z-index: 1;
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>dropdown</h2>
+        <p>example of dropdown</p>
+
+        <div class="dropdown">
+            <span>move the mouse to here</span>
+            <div class="dropdown-content">
+                <a href="https://www.w3schools.com/css/css_dropdowns.asp">hello world</a>
+            </div>
+
+        </div>
+    </body>
+</html>

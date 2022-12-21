@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #div1 {
+                position: absolute;
+                left: 50px;
+                width: calc(50% -50px);
+                border: 2px solid blue;
+                background-color: aqua;
+                padding: 5px;
+            }
+            #div2 {
+                background-color: aqua;
+                
+                width: max(50%, 50px);
+                border: 2px solid black;
+                padding: 5px;
+
+            }
+            #div3 {
+                background-color: aqua;
+                
+                width: min(50%, 50px);
+                border: 2px solid black;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>calculation</h1>
+        <p> difference btwn calcution value</p>
+        <div id="div1">calc...</div><br>
+        <br>
+
+        <div id="div2">max....</div><br>
+
+        <div id="div3">min....</div><br>
+    </body>
+</html>
